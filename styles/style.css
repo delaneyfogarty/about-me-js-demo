@@ -79,7 +79,7 @@ p {
 
 .hidden {
     display: none;
-}
+};
 
 footer {
     position: fixed;

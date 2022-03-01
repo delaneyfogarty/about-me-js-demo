@@ -2,13 +2,14 @@
 // no functions to import
 
 // grab DOM elements
-const showButton = document.getElementById(animal);
-const animal = document.getElementById(animalDiv);
+const showButton = document.getElementById('btn');
+const animal = document.getElementById('animalDiv');
 
 // set event listeners 
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
-showButton.addEventListener('click', (animal)) => {
-    animal.classList.remove('hidden');}
+showButton.addEventListener('click', () => {
+    animal.classList.remove('hidden');
+});
 
