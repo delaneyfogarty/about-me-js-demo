@@ -14,6 +14,13 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1. **Think about how to validate each of your features according to a Definition of Done**
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
+My plan
+1.) Head & body in html, header, footer, and main section all come from template.
+2.) Add text to the header & main section (name, pronouns, hometown). 
+3.) Add button and hidden div.
+4.) Style hidden class (animalDiv).
+5.) Add event listener for button click in app.js.
+6.) Add more cute styling.
 Additional considerations:
 
 -   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
