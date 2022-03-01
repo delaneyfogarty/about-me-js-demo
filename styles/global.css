@@ -13,7 +13,7 @@
 
 body {
     /* style */
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: var(--primary-background);
     color: var(--text-color);
 
@@ -42,4 +42,8 @@ footer {
     background-color: var(--chrome-background-opaque);
     padding: 10px var(--gutter);
     align-self: stretch;
+}
+
+strong {
+    font-weight: bold;
 }
