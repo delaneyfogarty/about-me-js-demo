@@ -1,21 +1,22 @@
 
 :root {
-    --primary-background: #FFFFF4;
-    --chrome-background: #e3b574;
-    --chrome-background-opaque: #e3b574d1;
-    --secondary-background: #C9B39B;
-    --text-color: #32363F;
-    --accent-light: #ED8F11;
-    --accent-dark: #C27A18;
+    --primary-background: #a1578f;
+    --chrome-background: #691d6b;
+    --chrome-background-opaque: #7674e3d1;
+    --secondary-background: #2c91af;
+    --text-color: #073296;
+    --accent-light: #a80c67;
+    --accent-dark: #7f58db;
     
     --gutter: 30px;
 }
 
 body {
     /* style */
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: var(--primary-background);
     color: var(--text-color);
+    position: center;
 
     /* layout */
     display: grid;
@@ -42,4 +43,8 @@ footer {
     background-color: var(--chrome-background-opaque);
     padding: 10px var(--gutter);
     align-self: stretch;
+}
+
+strong {
+    font-weight: bold;
 }
