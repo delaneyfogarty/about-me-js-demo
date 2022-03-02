@@ -1,4 +1,4 @@
-## The Golden Rule:
+## The Golden Rule
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
@@ -16,25 +16,25 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 My plan
 1.) Head & body in html, header, footer, and main section all come from template.
-2.) Add text to the header & main section (name, pronouns, hometown). 
+2.) Add text to the header & main section (name, pronouns, hometown).
 3.) Add button and hidden div.
 4.) Style hidden class (animalDiv).
 5.) Add event listener for button click in app.js.
 6.) Add more cute styling.
 Additional considerations:
 
--   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
--   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
-    -   What are the key/value pairs?
-    -   What arrays might you need?
-    -   What needs to live in a persistence layer?
--   Is there some state we need to initialize?
--   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+- Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
+- Consider your data model.
+  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
+  - What are the key/value pairs?
+  - What arrays might you need?
+  - What needs to live in a persistence layer?
+- Is there some state we need to initialize?
+- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
 
 ## Rubric
 
-| App should include . . .                                        
+| App should include . . .
 | Bio data shows on page, including name, pronouns, and where you live                |   1 |
 | Favorite animal is hidden on page load                                              |   2 |
 | Button with event listener shows favorite animal data                               |   2 |
